@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mptest.mapper.UserMapper">
+
+    <select id="selectByName" resultType="com.example.mptest.entity.response.UserQueryResponse">
+        select name as Name,age,email
+        from user
+        where name = #{p.name}
+    </select>
+    <select id="selectByNames" resultType="com.example.mptest.entity.User">
+        select name as nAme,age,email
+        from user
+        where name = #{p.name}
+    </select>
+</mapper>
