@@ -25,18 +25,7 @@ public class UserController {
 
     @GetMapping("/test")
     public void test() {
-//        Assert.notNull(users, "参数为空"); 直接抛异常
-//        users = userMapper.selectList(null);
-//        users.forEach(System.out::println);
-
-//        User user = userMapper.selectOne(Wrappers.<User>lambdaQuery().eq(User::getId, 2));
-//        return user;
-
-//        User user = new User("xujin", 15, "8888@qq.com");
-//        userMapper.insert(user);
-
-//        Page<User> userPage = userMapper.selectPage(new Page<>(1, 2), null);
-//        System.out.println(userPage);
+        System.out.println("test jenkins");
     }
 
     @GetMapping("/api/name")
