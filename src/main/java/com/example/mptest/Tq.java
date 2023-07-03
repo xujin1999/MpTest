@@ -11,6 +11,7 @@ public class Tq {
         System.out.println(largestRectangleArea1(heights));
         System.out.println(largestRectangleArea1(heights));
         System.out.println(largestRectangleArea1(heights));
+        System.out.println(largestRectangleArea1(heights));
 
 //        System.out.println(removeKdigits("112", 1));
 
