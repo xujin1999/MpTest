@@ -9,6 +9,9 @@ public class Tq {
     public static void main(String[] args) {
         int[] heights = {6,5,1};
         System.out.println(largestRectangleArea1(heights));
+        System.out.println(largestRectangleArea1(heights));
+        System.out.println(largestRectangleArea1(heights));
+        System.out.println(largestRectangleArea1(heights));
 
 //        System.out.println(removeKdigits("112", 1));
 
