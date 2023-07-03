@@ -12,10 +12,6 @@ public class UserServiceImpl implements UserService {
     @Override
 //    @Transactional(rollbackFor = Exception.class)
     public void handle() {
-//        User user = new User("xujin", 14, "8888@qq.com");
-//        userMapper.insert(user);
-//        int a = 1 / 0;
-//        user.setName("Tom");
-//        userMapper.updateById(user);
+
     }
 }
